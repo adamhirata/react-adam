@@ -26,7 +26,7 @@ export default function SideMenu() {
     }
   }, [selected]);
   const routeHome = () => {
-    window.open("./home", "_self");
+    window.open("http://localhost:3000/home", "_self");
   };
   return (
     <div className="menu-container">

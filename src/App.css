@@ -4,3 +4,36 @@
   height: 100vh;
   background-color: #0f2755;
 }
+
+.blog-preview {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  padding: 10px;
+  background-color: #bacef8;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px #5476c0;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #dee5f3;
+}
+
+.button:active {
+  box-shadow: 0px 3px 0px #5476c0;
+  position: relative;
+  top: 2px;
+}
+
+.button > p {
+  margin: 0px;
+  font-family: "Consolas";
+  user-select: none;
+}
