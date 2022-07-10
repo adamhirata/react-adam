@@ -3,6 +3,7 @@ import "./App.css";
 import HomeScreen from "./Screens/HomeScreen";
 import ArticleScreen from "./Screens/ArticleScreen";
 import BlogPreview from "./BlogPreview";
+import PixArt from "./PixArt";
 
 function App() {
   const route = window.location.pathname;
@@ -14,7 +15,7 @@ function App() {
     case "/":
     case "/home":
       // [!] To-do: Home Screen
-      routeComp = <BlogPreview />;
+      routeComp = <PixArt />;
       break;
     case "/article":
     case "/article/":

@@ -37,3 +37,25 @@
   font-family: "Consolas";
   user-select: none;
 }
+
+.pix-art {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+}
+
+.pixel {
+  display: flex;
+  background-color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+}
